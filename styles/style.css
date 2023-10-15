@@ -113,7 +113,7 @@ footer a{
     text-decoration: none;
 }
 footer a:hover{
-    color: rgb(63, 180, 141);
+    color: rgb(188, 192, 236);
 }
 
 footer p {
@@ -131,7 +131,7 @@ footer .social img{
 
 /*nav elements*/
 nav a{
-color: rgb(49, 129, 190);
+color: rgb(241, 245, 248);
 text-decoration: none;
 padding: 35px;
 
@@ -139,7 +139,7 @@ padding: 35px;
 
 nav a:hover {
     background-color: rgb(31, 125, 105);
-    color: rgb(53, 123, 215);
+    color: rgb(236, 242, 249);
 }
 
 .icon {
