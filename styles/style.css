@@ -40,6 +40,7 @@ body {
 
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px;
+    align-items: center;
 
 
 }
