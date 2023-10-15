@@ -9,11 +9,11 @@
 }
 
 header {
-    background-color:rgba(13, 66, 130, 0.7);
+    background-color:rgba(13, 36, 130, 0.7);
 }
 
 #background{
-    background-color:white ;
+    background-color:rgb(225, 241, 244) ;
 
 
 }
@@ -32,7 +32,7 @@ header {
     padding-top:10px;
 }
 body {
-    background-color: #fcfbfb; 
+    background-color: #083855; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
