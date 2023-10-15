@@ -126,6 +126,7 @@ footer p a:hover {
 
 footer .social img{
     padding-top: 15px;
+    font-size: small;
 }
 
 /*nav elements*/
@@ -141,8 +142,8 @@ nav a:hover {
     color: rgb(53, 123, 215);
 }
 
-.fb-icon, .instagram-icon, .twitter-icon {
-    font-size: 15px;
+.icon {
+    font-size: 1.5px;
 }
 
 
