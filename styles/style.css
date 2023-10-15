@@ -1,26 +1,61 @@
+/*home elements */
 .home-title h4{
     color: rgb(21, 52, 83);
+    font-size: 2em;
+}
+.home-title{
+    color: #000000;
+    margin-top: 10px;
 }
 
-
-.logo{
-    width: 20%;
-}
-body {
-    background-color: #fcfbfb; 
-}
 header {
     background-color:rgba(13, 66, 130, 0.7);
 }
-nav a:hover {
-    background-color: rgb(31, 125, 105);
-    color: rgb(53, 123, 215);
+
+#background{
+    background-color:white ;
+
+
 }
 
+/*logos/images*/
+.logo{
+    width: 20%;
+}
+
+#logo_link{
+    padding-top: 5px;
+
+}
+.icon{
+    width: 80px;
+    padding-top:10px;
+}
+body {
+    background-color: #fcfbfb; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px;
+
+
+}
+
+.card-img{
+    border: 10px;
+}
+/*book elements*/
 .book,.join {
     background-color: rgb(41, 50, 149);
     color: #fcfbfb;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 
 
 }
@@ -35,12 +70,23 @@ nav a:hover {
 
 
 }
+h2{
+    margin: 0;
+
+}
 
 main{
     align-content: center;
 }
+
+main section img{
+    box-sizing: border-box;
+}
+/*msg elements*/
 .msg{
     background-color:rgb(28, 100, 167) ;
+    line-height: 1.5em;
+    padding: 35px;
 
 
 }
@@ -49,10 +95,17 @@ main{
 }
 .msg p{
     color: #000000;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
+
+/*footer elements*/
+
 footer{
     background-color: rgb(36, 75, 126);
     color: #fcfbfb;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: rgb(62, 161, 161);
@@ -69,14 +122,22 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
+
+footer .social img{
+    padding-top: 15px;
+}
+
+/*nav elements*/
 nav a{
 color: rgb(49, 129, 190);
 text-decoration: none;
+padding: 35px;
 
 }
-.home-title{
-    color: #000000;
+
+nav a:hover {
+    background-color: rgb(31, 125, 105);
+    color: rgb(53, 123, 215);
 }
-.icon{
-    width: 80px;
-}
+
+
