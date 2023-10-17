@@ -1,3 +1,12 @@
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+
+
+
 /*home elements */
 .home-title h4{
     color: rgb(21, 52, 83);
