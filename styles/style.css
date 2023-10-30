@@ -233,7 +233,3 @@ nav a:hover {
   grid-column: 2/8;
   grid-row: 5/9;
 }
-.msg {
-  grid-column: 6/11;
-  grid-row: 6/8;
-}
