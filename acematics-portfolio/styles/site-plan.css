@@ -60,7 +60,7 @@ header {
   padding: 1em;
   text-align: center;
   color: var(--headline-color-on-color);
-  background-color: var(--paragraph-background-color);
+  background-color: #2074b0;
 }
 header > h1,
 header > h2 {
@@ -105,7 +105,7 @@ p.colored {
 }
 
 nav {
-  background-color: var(--nav-background-color);
+  background-color: #10154e;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
