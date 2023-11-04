@@ -14,7 +14,7 @@
 }
 
 header {
-  background-color: rgba(25, 87, 131, 0.7);
+  background-color: #396e94;
   display: grid;
   grid-template-columns: 150px auto;
 }
