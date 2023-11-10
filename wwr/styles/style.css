@@ -241,7 +241,6 @@ nav a:hover {
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
-  overflow: hidden; /* Hide the overflow for a cleaner look */
 }
 
 .reviews-container {
