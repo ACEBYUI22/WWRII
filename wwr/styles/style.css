@@ -238,6 +238,49 @@ nav a:hover {
   grid-row: 5/9;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  overflow: hidden; /* Hide the overflow for a cleaner look */
+}
+
+.reviews-container {
+  display: flex;
+  animation: scrollReviews 30s linear infinite; /* Adjust the duration as needed */
+}
+
+.review {
+  width: 30vw; /* Adjust the width as needed */
+  min-width: 200px; /* Set a minimum width */
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-right: 20px;
+  overflow: hidden; /* Clip content that overflows the box */
+  transition: transform 1s ease-in-out;
+}
+
+.reviewer-name {
+  font-weight: bold;
+}
+
+.review-date {
+  color: #666;
+  font-size: 0.8em;
+}
+
+.review-text {
+  margin-top: 10px;
+}
+
+@keyframes scrollReviews {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 @media screen and (max-width: 900px) {
   #hero,
   .home-grid {
