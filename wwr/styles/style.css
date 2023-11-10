@@ -254,7 +254,7 @@ body {
   border: 1px solid #ccc;
   padding: 15px;
   margin-right: 20px;
-  overflow: hidden; /* Clip content that overflows the box */
+
   transition: transform 1s ease-in-out;
 }
 
