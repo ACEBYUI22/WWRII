@@ -406,6 +406,97 @@ img.hover-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@1,200&display=swap");
+
+body {
+  font-family: "Poppins", Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+h3 {
+  color: #1d4596;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="submit"] {
+  background-color: #124060;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #1cc092;
+}
+
+.leave-container {
+  border-radius: 5px;
+  background-color: #74bdc8;
+  padding: 20px;
+}
+
+.leave-container {
+  body {
+    font-family: "Poppins", Helvetica, sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  h3 {
+    color: #1d4596;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  input[type="submit"] {
+    background-color: #124060;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #1cc092;
+  }
+
+  .leave-container {
+    border-radius: 5px;
+    background-color: #74bdc8;
+    padding: 20px;
+  }
+}
 @media screen and (max-width: 900px) {
   #hero,
   .home-grid {
