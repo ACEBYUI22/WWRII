@@ -14,7 +14,7 @@
         <footer></footer>
     </div>
 </body>
--->
+  -->
   <body>
     <div id="content">
       <header>
@@ -31,13 +31,13 @@
         <div id="hero-box">
           <img
             id="hero-img"
-            src="images/raftingII.jpeg"
+            src="images/photo-1629248564797-8c5ba85da9d3.webp"
             alt="People enjoying white water rafting"
           />
         </div>
         <section id="hero-msg">
-          <h1 class="home-title">Have An Adventure</h1>
-          <h4>Make Memories with Dry Oar</h4>
+          <h1 class="home-title">Make Memories With Dry Oar...</h1>
+          
           <div class="button-box">
           </div>
         </section>
@@ -50,7 +50,7 @@
             <div class="reviewer-name">John Doe</div>
             <div class="review-date">October 10, 2023</div>
             <div class="review-text">
-              <p>This product is amazing! It exceeded my expectations. The quality is top-notch, and it's incredibly user-friendly. I highly recommend it.</p>
+              <p>I discovered the ultimate white water rafting experience through this website! The variety of locations and difficulty levels allowed me to find the perfect adventure for my group. The detailed reviews and raftings helped us choose an exhilaratiing route that exceeds our expectations. THANK YOU, DRY OAR!!!</p>
             </div>
           </div>
       
@@ -58,7 +58,7 @@
             <div class="reviewer-name">Jane Smith</div>
             <div class="review-date">October 5, 2023</div>
             <div class="review-text">
-              <p>I've been using this product for a month now, and I'm very satisfied. It's durable and does exactly what it's supposed to do. Great value for the price!</p>
+              <p>As a mom looking for a safe  yet exciting white water rafting trip, this website was a game-changer! The comprehensiveinformation on each location's family-friendliness and safety measures eased my concerns. We found a fantastic river/camping experience for my whole family to enjoy, and the experienced guides made it a seamless and memorable time. Highly recommend!  </p>
             </div>
           </div>
       
@@ -66,7 +66,7 @@
             <div class="reviewer-name">Alice Johnson</div>
             <div class="review-date">September 28, 2023</div>
             <div class="review-text">
-              <p>This is the best product I've ever bought! It's stylish, functional, and the customer service is excellent. I'm a happy customer!</p>
+              <p>I stumbled upon this website while planning a weekend getaway. The straightworward search and clear reviews helped me pick a white water rafting spot that matched my skill level. It made organizing our adventure a breeze. 10/10 would use again.</p>
             </div>
           </div>
       
@@ -75,7 +75,7 @@
             <div class="reviewer-name">John Doe</div>
             <div class="review-date">October 10, 2023</div>
             <div class="review-text">
-              <p>This product is amazing! It exceeded my expectations. The quality is top-notch, and it's incredibly user-friendly. I highly recommend it.</p>
+              <p>I discovered the ultimate white water rafting experience through this website! The variety of locations and difficulty levels allowed me to find the perfect adventure for my group. The detailed reviews and raftings helped us choose an exhilaratiing route that exceeds our expectations. THANK YOU, DRY OAR!!!</p>
             </div>
           </div>
       
@@ -83,7 +83,7 @@
             <div class="reviewer-name">Jane Smith</div>
             <div class="review-date">October 5, 2023</div>
             <div class="review-text">
-              <p>I've been using this product for a month now, and I'm very satisfied. It's durable and does exactly what it's supposed to do. Great value for the price!</p>
+              <p>As a mom looking for a safe  yet exciting white water rafting trip, this website was a game-changer! The comprehensiveinformation on each location's family-friendliness and safety measures eased my concerns. We found a fantastic river/camping experience for my whole family to enjoy, and the experienced guides made it a seamless and memorable time. Highly recommend!  </p>
             </div>
           </div>
       
@@ -91,14 +91,83 @@
             <div class="reviewer-name">Alice Johnson</div>
             <div class="review-date">September 28, 2023</div>
             <div class="review-text">
-              <p>This is the best product I've ever bought! It's stylish, functional, and the customer service is excellent. I'm a happy customer!</p>
+              <p>I stumbled upon this website while planning a weekend getaway. The straightworward search and clear reviews helped me pick a white water rafting spot that matched my skill level. It made organizing our adventure a breeze. 10/10 would use again.</p>
             </div>
           </div>
           <!-- Add more duplicated reviews as needed -->
         </div>
+
+        <style>
+          @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@1,200&display=swap");
+
+          body {font-family: "Poppins", Helvetica, sans-serif;}
+          * {box-sizing: border-box;}
+          
+          input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+          }
+
+          h3{
+            color: #1d4596;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+          
+          input[type=submit] {
+            background-color: #124060;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          
+          input[type=submit]:hover {
+            background-color: #1cc092;
+          }
+          
+          .leave-container {
+            border-radius: 5px;
+            background-color: #74bdc8;
+            padding: 20px;
+          }
+          </style>
+          </head>
+          <body>
+          
+          <h3>Leave a Reiview</h3>
+          
+          <div class="leave-container">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Review</label>
+              <textarea id="subject" name="subject" placeholder="Your review here..." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+ 
+        
       
-      </main>
-      <footer>
+</main>
+  <footer>
         <p>Dry Oar &copy; 2023 - Aidan Chowdhury</p>
         <p><a href="site-plan-rafting.html">Site Plan</a></p>
         <p><a href="contactus.html">Contact Us</a></p>
