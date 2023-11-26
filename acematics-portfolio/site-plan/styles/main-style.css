@@ -1,0 +1,59 @@
+/*Colors
+--primary-color: #2074b0;
+  --secondary-color: #3d43bc;
+  --accent1-color: #10154e;
+  --accent2-color: #a121c4; */
+nav {
+  grid-template-rows: 10px 20px;
+  padding: 20px 0 20px 0;
+}
+nav a {
+  color: white;
+  text-align: center;
+  text-size-adjust: 50%;
+  text-decoration: none;
+}
+header {
+  background-color: #2074b0;
+  display: grid;
+}
+
+.logo {
+  width: 15%;
+}
+
+.content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.para-one,
+.para-three {
+  background-color: #2074b0;
+}
+.para-one p,
+h1 {
+  color: white;
+}
+.para-two {
+  background-color: white;
+}
+.para-two p {
+  color: #24418c;
+}
+
+footer {
+  display: grid;
+  background-color: #24418c;
+}
+footer a,
+h4,
+p {
+  color: white;
+  text-align: center;
+}
+#hero-img {
+  width: 100%;
+}
+img {
+  width: 100%;
+}
