@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald&display=swap");
+
 /*Colors
 --primary-color: #2074b0;
   --secondary-color: #3d43bc;
@@ -15,7 +17,10 @@ nav a {
 }
 header {
   background-color: #2074b0;
-  display: grid;
+  display: grid-;
+}
+header a {
+  align-items: left;
 }
 
 .logo {
@@ -56,4 +61,27 @@ p {
 }
 img {
   width: 100%;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #2b559c;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #1e5eb8;
+  color: white;
 }
