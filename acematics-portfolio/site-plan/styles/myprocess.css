@@ -26,14 +26,17 @@ header a {
 .logo {
   width: 15%;
 }
+p,
+li {
+  color: #192b56;
+}
+.quote {
+  size-adjust: 30%;
+}
 
 .content {
   max-width: 1600px;
   margin: 0 auto;
-}
-
-.howto p {
-  color: #24418c;
 }
 
 footer {
@@ -42,7 +45,7 @@ footer {
 }
 footer a,
 footer h4 {
-  color: rgb(40, 53, 139);
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 #hero-img {
