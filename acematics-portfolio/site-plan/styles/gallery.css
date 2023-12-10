@@ -8,6 +8,7 @@ nav a {
   text-size-adjust: 50%;
   text-decoration: none;
 }
+
 header {
   background-color: #2074b0;
   display: grid-;
@@ -70,6 +71,7 @@ body {
   overflow: hidden;
   background-color: #2b559c;
 }
+
 .logo {
   float: left;
   width: 15%;
