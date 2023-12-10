@@ -10,21 +10,41 @@
   width, initial-scale=1.0"
     />
     <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link
       type="text/css"
       rel="stylesheet"
       href="site-plan/styles/gallery.css"
     />
     <nav>
       <header>
+        <img src="images/acematics.png" alt="acematics logo" class="logo" />
         <a href="acematics-portfolio/index.html"></a>
         <a href="index.html">Home</a>
         <a href="myprocess.html">My Process</a>
         <a href="gallery.html">Gallery</a>
+        
       </header>
     </nav>
-    <img src="images/acematics.png" alt="acematics logo" class="logo" />
+    
     <title>Acematics Portfolio</title>
   </head>
+  <style>
+    p {
+      font-family: "Open Sans";
+      font-size: 22px;
+    }
+    h1 {
+      font-family: Oswald;
+      font-size: 45px;
+    }
+    a{
+      font-family: Oswald;
+      font-size: 45px;
+    }
+  </style>
 
   <style>
     * {
@@ -81,15 +101,15 @@
     }
     </style>
 
-  <div class="header" id="myHeader">
-    <h1>Image Grid</h1>
-    <p>Click on the buttons to change the grid view.</p>
-    <button class="btn" onclick="one()">1</button>
-    <button class="btn active" onclick="two()">2</button>
-    <button class="btn" onclick="four()">4</button>
-  </div>
+  
     
       <h1>Gallery</h1>
+      <div class="header" id="myHeader">
+
+        <button class="btn" onclick="one()">1</button>
+        <button class="btn active" onclick="two()">2</button>
+        <button class="btn" onclick="four()">4</button>
+      </div>
       <div class="row">
         <div class="column">
           <img src="images2/IMG_0167.jpg" alt="dragon" style="width:100%" />

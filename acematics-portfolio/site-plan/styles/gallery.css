@@ -53,7 +53,7 @@ body {
 }
 .video {
   align-items: center;
-  background-color: #24418c;
+  background-color: #101d3c;
 }
 /* Create two equal columns that sits next to each other */
 .column {
@@ -71,6 +71,7 @@ body {
 }
 .logo {
   float: left;
+  width: 15%;
 }
 
 .topnav a {

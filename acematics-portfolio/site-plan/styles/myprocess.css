@@ -17,7 +17,7 @@ nav a {
 }
 header {
   background-color: #2074b0;
-  display: grid-;
+  display: grid;
 }
 header a {
   align-items: left;
