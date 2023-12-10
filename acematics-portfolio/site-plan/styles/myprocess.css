@@ -82,9 +82,26 @@ img {
   color: white;
 }
 .finished {
-  width: 100%;
+  width: 80%;
+  align-items: center;
 }
 img {
-  width: 65%;
+  width: 70%;
   align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.outro {
+  font-family: "Open Sans";
+}
+.outro h3 {
+  font-size: 25px;
+}
+.refined-drawing,
+.light {
+  float: right;
+}
+.render {
+  align-items: center;
+  width: 90%;
 }
