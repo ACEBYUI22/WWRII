@@ -52,7 +52,8 @@ body {
   padding: 0 4px;
 }
 .video {
-  align-items: center;
+  align-content: center;
+  size-adjust: 30%;
   background-color: #101d3c;
 }
 /* Create two equal columns that sits next to each other */
