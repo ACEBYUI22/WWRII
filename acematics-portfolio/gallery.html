@@ -9,6 +9,11 @@
       content="width=device-
   width, initial-scale=1.0"
     />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="site-plan/styles/gallery.css"
+    />
     <nav>
       <header>
         <a href="acematics-portfolio/index.html"></a>
@@ -17,56 +22,151 @@
         <a href="gallery.html">Gallery</a>
       </header>
     </nav>
-    <img src="images/acematics.png" alt="acematics logo" id="logo-changer" />
+    <img src="images/acematics.png" alt="acematics logo" class="logo" />
     <title>Acematics Portfolio</title>
   </head>
 
-  <body>
-    <p>
-      The 'Upcoming Projects' page is your backstage pass to the creative
-      journeys yet to unfold. Here, we offer a tantalizing glimpse into the
-      future of our artistic universe. We're thrilled to share with you the
-      exciting projects on the horizon, from captivating animated shorts to
-      beautifully illustrated books. Innovative Animated Shorts: Prepare to be
-      captivated by our upcoming animated shorts, where art comes to life
-      through motion and narrative. Our team is hard at work crafting visually
-      stunning and emotionally resonant stories that will take you on immersive
-      journeys. These shorts are the perfect fusion of artistic expression and
-      storytelling, and we can't wait to share them with you. Illustrated Books:
-      Books are more than words on paper; they are portals to new worlds. On
-      this page, you'll find a preview of our upcoming illustrated books, each a
-      labor of love that combines visual artistry with engaging stories. From
-      fantastical adventures to thought-provoking narratives, these books will
-      transport you to realms of imagination and wonder. Behind-the-Scenes
-      Insights: While the final products are what we eagerly anticipate, our
-      'Upcoming Projects' page also offers insights into the creative process.
-      We'll reveal how these projects evolve, from concept to completion,
-      providing a unique perspective on how art and storytelling intertwine.
-      Stay Informed and Inspired: We invite you to stay connected with us on
-      this page, where we'll continually update you on our upcoming projects'
-      progress and release dates. As we venture into uncharted artistic
-      territories, our goal is to ignite your anticipation, spark your
-      curiosity, and keep your creative spirit alive. In Conclusion: The
-      'Upcoming Projects' page is a portal to our artistic future, a place where
-      the boundaries of creativity are continually pushed. Whether you're a fan
-      of animation, literature, or simply a lover of art in all its forms, we
-      hope to engage your imagination and leave you inspired by the limitless
-      possibilities that await. Welcome to the exciting world of upcoming
-      projects, where creativity knows no bounds.
-    </p>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .header {
+      text-align: center;
+      padding: 32px;
+    }
+    
+    .row {
+      display: -ms-flexbox; /* IE 10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE 10 */
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    
+    /* Create two equal columns that sits next to each other */
+    .column {
+      -ms-flex: 50%; /* IE 10 */
+      flex: 50%;
+      padding: 0 4px;
+    }
+    
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+    }
+    
+    /* Style the buttons */
+    .btn {
+      border: none;
+      outline: none;
+      padding: 10px 16px;
+      background-color: #f1f1f1;
+      cursor: pointer;
+      font-size: 18px;
+    }
+    
+    .btn:hover {
+      background-color: #ddd;
+    }
+    
+    .btn.active {
+      background-color: #666;
+      color: white;
+    }
+    </style>
 
-    <div>
+  <div class="header" id="myHeader">
+    <h1>Image Grid</h1>
+    <p>Click on the buttons to change the grid view.</p>
+    <button class="btn" onclick="one()">1</button>
+    <button class="btn active" onclick="two()">2</button>
+    <button class="btn" onclick="four()">4</button>
+  </div>
+    
       <h1>Gallery</h1>
+      <div class="row">
+        <div class="column">
+          <img src="images2/IMG_0167.jpg" alt="dragon" style="width:100%" />
+          <img src="images2/IMG_0419.JPG" alt="snake" style="width:100%"/>
+          <img src="images2/IMG_0910.JPG" alt="minotaur"style="width:100%" />
+          <img src="images2/IMG_0973.JPG" alt="sea-monster" style="width:100%" />
+        </div>
+        <div class="column">
+          <img src="images2/IMG_0975.JPG" alt="mythosaur"style="width:100%" />
+          <img src="images2/IMG_1001.JPG"  alt="girl"style="width:100%"/>
+          <img src="images2/IMG_1140.JPG" alt="ashoka" style="width:100%"/>
+          <img src="images2/IMG_1141.JPG"  alt="kratos"style="width:100%"/>
 
-      <img src="images/pirate.JPG" alt="pirateship" />
-      <img src="images/god-of-war.JPG" alt="kratos" />
+      </div>
+      <div class="column">
+        <img src="images2/IMG_0167.jpg" alt="dragon" style="width:100%" />
+        <img src="images2/IMG_0419.JPG" alt="snake" style="width:100%"/>
+        <img src="images2/IMG_0910.JPG" alt="minotaur"style="width:100%" />
+        <img src="images2/IMG_0973.JPG" alt="sea-monster" style="width:100%" />
+      </div>
+      <div class="column">
+        <img src="images2/IMG_0975.JPG" alt="mythosaur"style="width:100%" />
+        <img src="images2/IMG_1001.JPG"  alt="girl"style="width:100%"/>
+        <img src="images2/IMG_1140.JPG" alt="ashoka" style="width:100%"/>
+        <img src="images2/IMG_1141.JPG"  alt="kratos"style="width:100%"/>
+   
     </div>
+    </div>
+    <script>
+      // Get the elements with class="column"
+      var elements = document.getElementsByClassName("column");
+      
+      // Declare a loop variable
+      var i;
+      
+      // Full-width images
+      function one() {
+          for (i = 0; i < elements.length; i++) {
+          elements[i].style.msFlex = "100%";  // IE10
+          elements[i].style.flex = "100%";
+        }
+      }
+      
+      // Two images side by side
+      function two() {
+        for (i = 0; i < elements.length; i++) {
+          elements[i].style.msFlex = "50%";  // IE10
+          elements[i].style.flex = "50%";
+        }
+      }
+      
+      // Four images side by side
+      function four() {
+        for (i = 0; i < elements.length; i++) {
+          elements[i].style.msFlex = "25%";  // IE10
+          elements[i].style.flex = "25%";
+        }
+      }
+      
+      // Add active class to the current button (highlight it)
+      var header = document.getElementById("myHeader");
+      var btns = header.getElementsByClassName("btn");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+        });
+      }
+      </script>
 
     <div>
       <h1>Upcoming Projects</h1>
 
-      <img src="images/Main_Character_Design.jpg" alt="main-character" />
-      <img src="images/Quetzalcoatl_Design.jpg" alt="serpent" />
+      <div class="video">
+      <iframe width="420" height="345" src="https://youtu.be/mdCihjvRzqg">
+      </iframe>
     </div>
   </body>
 
