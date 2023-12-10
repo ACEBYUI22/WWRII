@@ -88,8 +88,6 @@ img {
 img {
   width: 70%;
   align-items: center;
-  display: flex;
-  flex-wrap: wrap;
 }
 .outro {
   font-family: "Open Sans";
