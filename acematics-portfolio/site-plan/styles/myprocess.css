@@ -97,10 +97,7 @@ img {
 .outro h3 {
   font-size: 25px;
 }
-.refined-drawing,
-.light {
-  float: right;
-}
+
 .render {
   align-items: center;
   width: 90%;
