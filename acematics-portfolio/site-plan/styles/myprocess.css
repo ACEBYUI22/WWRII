@@ -75,6 +75,7 @@ h3 {
 }
 .logo {
   width: 12%;
+  padding-left: 30px;
 }
 .topnav a:hover {
   background-color: #ddd;

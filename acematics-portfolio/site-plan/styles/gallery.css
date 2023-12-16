@@ -34,6 +34,7 @@ header a {
 footer {
   display: grid;
   background-color: #24418c;
+  padding: 0% 0%;
 }
 footer a,
 footer h4,
@@ -52,10 +53,14 @@ body {
   flex-wrap: wrap;
   padding: 0 4px;
 }
+
 .video {
-  align-content: center;
-  size-adjust: 30%;
-  background-color: #101d3c;
+  display: block;
+  padding-left: 20%;
+  padding-right: 80%;
+
+  width: 10%;
+  background-color: rgb(13, 28, 49);
 }
 /* Create two equal columns that sits next to each other */
 .column {
@@ -73,18 +78,24 @@ body {
 }
 
 .logo {
-  float: left;
-  width: 15%;
+  width: 12%;
+  padding-left: 30px;
 }
 
+.topnav {
+  overflow: hidden;
+  background-color: #2b559c;
+  display: flex;
+  justify-content: space-between; /* Align items on the horizontal axis */
+  align-items: center; /* Align items on the vertical axis */
+  padding-right: 15%;
+}
 .topnav a {
-  float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 15px 25px;
+  padding: 10px;
   text-decoration: none;
-  font-size: 45px;
-  grid-template-rows: max-content;
+  font-size: 25px;
 }
 
 .topnav a:hover {
