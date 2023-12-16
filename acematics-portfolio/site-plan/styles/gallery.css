@@ -34,7 +34,9 @@ header a {
 footer {
   display: grid;
   background-color: #24418c;
-  padding: 0% 0%;
+
+  width: 100%;
+  box-sizing: border-box;
 }
 footer a,
 footer h4,
@@ -42,8 +44,8 @@ footer p {
   color: rgb(255, 255, 255);
   text-align: center;
 }
-#hero-img {
-  width: 100%;
+.art {
+  size-adjust: 30px;
 }
 body {
   margin: 0;
@@ -54,14 +56,6 @@ body {
   padding: 0 4px;
 }
 
-.video {
-  display: block;
-  padding-left: 20%;
-  padding-right: 80%;
-
-  width: 10%;
-  background-color: rgb(13, 28, 49);
-}
 /* Create two equal columns that sits next to each other */
 .column {
   flex: 50%;
@@ -106,4 +100,25 @@ body {
 .topnav a.active {
   background-color: #1e5eb8;
   color: white;
+}
+
+/*Grid elements*/
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row3 {
+  width: 90%; /*the size you want*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.2px; /*Adjust it how you want*/
+  margin-bottom: 5px; /*Adjust it how you want*/
+}
+
+.col1 {
+  width: 30%;
+  vertical-align: middle;
+  margin: auto;
 }
