@@ -34,6 +34,8 @@ header a {
 footer {
   display: grid;
   background-color: #24418c;
+  padding: 25px 50px;
+  margin-top: 200px;
 
   width: 100%;
   box-sizing: border-box;
@@ -43,12 +45,16 @@ footer h4,
 footer p {
   color: rgb(255, 255, 255);
   text-align: center;
+  grid-template-columns: auto;
 }
 .art {
   size-adjust: 30px;
 }
 body {
   margin: 0;
+}
+h1 {
+  margin-left: 40px;
 }
 .row {
   display: flex;
@@ -121,4 +127,21 @@ body {
   width: 30%;
   vertical-align: middle;
   margin: auto;
+}
+footer .social img {
+  padding-top: 15px;
+  max-width: 4em;
+  align-items: center;
+  margin-left: 2px;
+  margin-top: -40%;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #132545;
+  margin-top: 3%; /* Adjust this margin if needed */
+  margin-bottom: -15%;
 }

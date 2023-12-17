@@ -27,7 +27,9 @@ header a {
 .logo {
   width: 15%;
 }
-
+h1 {
+  margin-left: 40px;
+}
 .content {
   max-width: 1600px;
   margin: 0 auto;
@@ -83,4 +85,11 @@ img {
 .topnav a.active {
   background-color: #1e5eb8;
   color: white;
+}
+footer .social img {
+  padding-top: 15px;
+  max-width: 4em;
+  align-items: center;
+  margin-left: 2px;
+  margin-top: 0%;
 }

@@ -34,6 +34,13 @@ li {
 .quote {
   size-adjust: 30%;
 }
+footer img {
+  padding-top: 10px;
+  max-width: 4em;
+  align-items: center;
+  margin-left: 0%;
+  margin-top: 0%;
+}
 
 .content {
   max-width: 1600px;
@@ -50,8 +57,11 @@ footer p {
   color: rgb(255, 255, 255);
   text-align: center;
 }
-h3 {
+footer img h3 {
   size-adjust: 20px;
+}
+h1 {
+  margin-left: 40px;
 }
 #hero-img {
   width: 100%;
